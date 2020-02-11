@@ -2,7 +2,15 @@ package com.company;
 
 public class Player {private int health;
 private int damage;
-private String specialAbbility;
+private String weapons;
+
+    public String getWeapons() {
+        return weapons;
+    }
+
+    public void setWeapons(String weapons) {
+        this.weapons = weapons;
+    }
 
     public int getHealth() {
         return health;
@@ -20,11 +28,5 @@ private String specialAbbility;
         this.damage = damage;
     }
 
-    public String getSpecialAbbility() {
-        return specialAbbility;
-    }
 
-    public void setSpecialAbbility(String specialAbbility) {
-        this.specialAbbility = specialAbbility;
-    }
 }
