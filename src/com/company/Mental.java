@@ -17,6 +17,6 @@ public class Mental extends Player implements SuperAbilyty {private int specialA
 
     @Override
     public void FastAttack() {
-        
+
     }
 }

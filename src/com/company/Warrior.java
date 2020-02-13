@@ -1,6 +1,6 @@
 package com.company;
 
-public class Warrior extends Player {private String name;
+public class Warrior extends Player implements SuperAbilyty {private String name;
 private int specialAbbilyty;
 
     public int getSpecialAbbilyty() {
@@ -18,4 +18,16 @@ private int specialAbbilyty;
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public void SpecialAttack() {
+
+
+        }
+
+    @Override
+    public void FastAttack() {
+
+    }
 }
+

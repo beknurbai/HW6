@@ -1,6 +1,6 @@
 package com.company;
 
-public class Magical extends Player {private int specialAbbilyty;
+public class Magical extends Player implements SuperAbilyty {private int specialAbbilyty;
 
     public int getSpecialAbbilyty() {
         return specialAbbilyty;
@@ -10,4 +10,13 @@ public class Magical extends Player {private int specialAbbilyty;
         this.specialAbbilyty = specialAbbilyty;
     }
 
+    @Override
+    public void SpecialAttack() {
+
+    }
+
+    @Override
+    public void FastAttack() {
+
+    }
 }
